@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+        <array key="SFPRODISPLAYREGULAR.OTF">
+            <string>SFProDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextFieldCustomView" customModule="TextFields" customModuleProvider="target">
+            <connections>
+                <outlet property="inputTextField" destination="8MC-MX-lPd" id="7Am-9x-cl8"/>
+                <outlet property="limitLabel" destination="KFa-qr-oak" id="vGq-kr-QRU"/>
+                <outlet property="minDigitsLabel" destination="c06-1p-w0f" id="n1e-BF-gB1"/>
+                <outlet property="minLengthLabel" destination="gAJ-hv-Cvm" id="bcf-Sz-yz2"/>
+                <outlet property="minLowercaseLabel" destination="mcO-BS-IoD" id="Hri-Az-4Zy"/>
+                <outlet property="minUppercaseLabel" destination="odW-3x-FXr" id="jNB-XK-fTg"/>
+                <outlet property="titleLabel" destination="Bq3-V9-EVz" id="V4F-kd-nOp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h3z-N4-rew">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="149"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="EL1-Qu-dHR">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="15.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bq3-V9-EVz">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="15.5"/>
+                            <accessibility key="accessibilityConfiguration" identifier="titleLabel"/>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
+                            <color key="textColor" red="0.1764705882" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFa-qr-oak">
+                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="15.5"/>
+                            <accessibility key="accessibilityConfiguration" identifier="countLabel"/>
+                            <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8MC-MX-lPd">
+                    <rect key="frame" x="0.0" y="21.5" width="414" height="34"/>
+                    <accessibility key="accessibilityConfiguration" identifier="inputTextField"/>
+                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="iPU-lg-KyE">
+                    <rect key="frame" x="8" y="65.5" width="0.0" height="0.0"/>
+                    <subviews>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min length 8 characters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAJ-hv-Cvm">
+                            <rect key="frame" x="0.0" y="0.0" width="137" height="0.0"/>
+                            <accessibility key="accessibilityConfiguration" identifier="minLengthLabell"/>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
+                            <color key="textColor" red="0.3411764706" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min 1 digit," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c06-1p-w0f">
+                            <rect key="frame" x="0.0" y="0.0" width="65" height="0.0"/>
+                            <accessibility key="accessibilityConfiguration" identifier="min1DigitLabel"/>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
+                            <color key="textColor" red="0.3411764706" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min 1 lowercase," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcO-BS-IoD">
+                            <rect key="frame" x="0.0" y="0.0" width="98.5" height="0.0"/>
+                            <accessibility key="accessibilityConfiguration" identifier="min1LowercaseLabel"/>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
+                            <color key="textColor" red="0.3411764706" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min 1 capital required." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odW-3x-FXr">
+                            <rect key="frame" x="0.0" y="0.0" width="129.5" height="0.0"/>
+                            <accessibility key="accessibilityConfiguration" identifier="min1UppercaseLabel"/>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
+                            <color key="textColor" red="0.3411764706" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="2WM-G2-GjA"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8MC-MX-lPd" secondAttribute="trailing" id="4J7-1g-fbI"/>
+                <constraint firstAttribute="trailing" secondItem="8MC-MX-lPd" secondAttribute="trailing" id="M1K-rQ-EkU"/>
+                <constraint firstItem="EL1-Qu-dHR" firstAttribute="top" secondItem="h3z-N4-rew" secondAttribute="top" id="O2j-3u-fg2"/>
+                <constraint firstItem="EL1-Qu-dHR" firstAttribute="leading" secondItem="8MC-MX-lPd" secondAttribute="leading" id="RFB-OF-kV2"/>
+                <constraint firstItem="EL1-Qu-dHR" firstAttribute="trailing" secondItem="8MC-MX-lPd" secondAttribute="trailing" id="fxO-AP-1f2"/>
+                <constraint firstItem="iPU-lg-KyE" firstAttribute="leading" secondItem="h3z-N4-rew" secondAttribute="leading" constant="8" id="hlT-4Q-pcF"/>
+                <constraint firstItem="8MC-MX-lPd" firstAttribute="leading" secondItem="h3z-N4-rew" secondAttribute="leading" id="p7D-ay-RFA"/>
+                <constraint firstItem="8MC-MX-lPd" firstAttribute="top" secondItem="EL1-Qu-dHR" secondAttribute="bottom" constant="6" id="r8n-jB-9ZW"/>
+                <constraint firstItem="iPU-lg-KyE" firstAttribute="top" secondItem="8MC-MX-lPd" secondAttribute="bottom" constant="10" id="wkE-19-3wW"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="101" y="-133"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

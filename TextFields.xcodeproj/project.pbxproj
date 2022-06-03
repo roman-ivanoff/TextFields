@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1927E8284A1D39001BEF89 /* TextFieldCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD1927E7284A1D39001BEF89 /* TextFieldCustomView.xib */; };
+		FD1927EA284A1D7A001BEF89 /* TextFieldCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1927E9284A1D7A001BEF89 /* TextFieldCustomView.swift */; };
 		FD4A21A22847A557000B6A13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A21A12847A557000B6A13 /* AppDelegate.swift */; };
 		FD4A21A42847A557000B6A13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A21A32847A557000B6A13 /* SceneDelegate.swift */; };
 		FD4A21A62847A557000B6A13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A21A52847A557000B6A13 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD1927E7284A1D39001BEF89 /* TextFieldCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCustomView.xib; sourceTree = "<group>"; };
+		FD1927E9284A1D7A001BEF89 /* TextFieldCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomView.swift; sourceTree = "<group>"; };
 		FD4A219E2847A557000B6A13 /* TextFields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFields.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4A21A12847A557000B6A13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD4A21A32847A557000B6A13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		FD4A21A02847A557000B6A13 /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
+				FD4A21BA2847A6A0000B6A13 /* Models */,
+				FD4A21B82847A690000B6A13 /* CustomUIElements */,
 				FD4A21B72847A5B4000B6A13 /* Storyboards */,
 				FD4A21B62847A5A3000B6A13 /* Controllers */,
 				FD4A21B52847A57C000B6A13 /* Supporting Files */,
@@ -89,6 +95,22 @@
 				FD4A21A72847A557000B6A13 /* Main.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FD4A21B82847A690000B6A13 /* CustomUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				FD1927E7284A1D39001BEF89 /* TextFieldCustomView.xib */,
+				FD1927E9284A1D7A001BEF89 /* TextFieldCustomView.swift */,
+			);
+			path = CustomUIElements;
+			sourceTree = "<group>";
+		};
+		FD4A21BA2847A6A0000B6A13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +174,7 @@
 				FD4A21AE2847A559000B6A13 /* LaunchScreen.storyboard in Resources */,
 				FD4A21AB2847A559000B6A13 /* Assets.xcassets in Resources */,
 				FD4A21A92847A557000B6A13 /* Main.storyboard in Resources */,
+				FD1927E8284A1D39001BEF89 /* TextFieldCustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +188,7 @@
 				FD4A21A62847A557000B6A13 /* ViewController.swift in Sources */,
 				FD4A21A22847A557000B6A13 /* AppDelegate.swift in Sources */,
 				FD4A21A42847A557000B6A13 /* SceneDelegate.swift in Sources */,
+				FD1927EA284A1D7A001BEF89 /* TextFieldCustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
