@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FD09089F284B5CBB00CF2746 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09089E284B5CBB00CF2746 /* Rules.swift */; };
 		FD0908A1284B5CD400CF2746 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0908A0284B5CD400CF2746 /* TextFieldModel.swift */; };
+		FD0908A3284B5D2B00CF2746 /* InputRuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0908A2284B5D2B00CF2746 /* InputRuleProtocol.swift */; };
 		FD1927E8284A1D39001BEF89 /* TextFieldCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD1927E7284A1D39001BEF89 /* TextFieldCustomView.xib */; };
 		FD1927EA284A1D7A001BEF89 /* TextFieldCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1927E9284A1D7A001BEF89 /* TextFieldCustomView.swift */; };
 		FD4A21A22847A557000B6A13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A21A12847A557000B6A13 /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		FD09089E284B5CBB00CF2746 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
 		FD0908A0284B5CD400CF2746 /* TextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
+		FD0908A2284B5D2B00CF2746 /* InputRuleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRuleProtocol.swift; sourceTree = "<group>"; };
 		FD1927E7284A1D39001BEF89 /* TextFieldCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCustomView.xib; sourceTree = "<group>"; };
 		FD1927E9284A1D7A001BEF89 /* TextFieldCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomView.swift; sourceTree = "<group>"; };
 		FD4A219E2847A557000B6A13 /* TextFields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFields.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +50,7 @@
 		FD09089C284B5C8200CF2746 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				FD0908A2284B5D2B00CF2746 /* InputRuleProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				FD4A21A22847A557000B6A13 /* AppDelegate.swift in Sources */,
 				FD4A21A42847A557000B6A13 /* SceneDelegate.swift in Sources */,
 				FD0908A1284B5CD400CF2746 /* TextFieldModel.swift in Sources */,
+				FD0908A3284B5D2B00CF2746 /* InputRuleProtocol.swift in Sources */,
 				FD1927EA284A1D7A001BEF89 /* TextFieldCustomView.swift in Sources */,
 				FD09089F284B5CBB00CF2746 /* Rules.swift in Sources */,
 			);
