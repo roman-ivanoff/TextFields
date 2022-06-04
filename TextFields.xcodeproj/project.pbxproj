@@ -10,11 +10,20 @@
 		FD09089F284B5CBB00CF2746 /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD09089E284B5CBB00CF2746 /* Rules.swift */; };
 		FD0908A1284B5CD400CF2746 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0908A0284B5CD400CF2746 /* TextFieldModel.swift */; };
 		FD0908A3284B5D2B00CF2746 /* InputRuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0908A2284B5D2B00CF2746 /* InputRuleProtocol.swift */; };
+		FD0908A5284B5F0200CF2746 /* NoDigits.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0908A4284B5F0200CF2746 /* NoDigits.storyboard */; };
+		FD0908A7284B5FF600CF2746 /* NoDigitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0908A6284B5FF600CF2746 /* NoDigitsViewController.swift */; };
+		FD0908A9284B6A3F00CF2746 /* InputLimit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0908A8284B6A3F00CF2746 /* InputLimit.storyboard */; };
+		FD0908AB284B6A9000CF2746 /* InputLimitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0908AA284B6A9000CF2746 /* InputLimitViewController.swift */; };
+		FD0908AD284B6B1500CF2746 /* OnlyCharacters.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0908AC284B6B1500CF2746 /* OnlyCharacters.storyboard */; };
+		FD0908AF284B6C3000CF2746 /* OnlyCharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0908AE284B6C3000CF2746 /* OnlyCharactersViewController.swift */; };
+		FD0908B1284B733800CF2746 /* Link.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0908B0284B733800CF2746 /* Link.storyboard */; };
+		FD0908B4284B738B00CF2746 /* LinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0908B3284B738B00CF2746 /* LinkViewController.swift */; };
+		FD0908B6284B73F100CF2746 /* Password.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0908B5284B73F100CF2746 /* Password.storyboard */; };
+		FD0908B8284B744300CF2746 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0908B7284B744300CF2746 /* PasswordViewController.swift */; };
 		FD1927E8284A1D39001BEF89 /* TextFieldCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD1927E7284A1D39001BEF89 /* TextFieldCustomView.xib */; };
 		FD1927EA284A1D7A001BEF89 /* TextFieldCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1927E9284A1D7A001BEF89 /* TextFieldCustomView.swift */; };
 		FD4A21A22847A557000B6A13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A21A12847A557000B6A13 /* AppDelegate.swift */; };
 		FD4A21A42847A557000B6A13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A21A32847A557000B6A13 /* SceneDelegate.swift */; };
-		FD4A21A62847A557000B6A13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4A21A52847A557000B6A13 /* ViewController.swift */; };
 		FD4A21A92847A557000B6A13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4A21A72847A557000B6A13 /* Main.storyboard */; };
 		FD4A21AB2847A559000B6A13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4A21AA2847A559000B6A13 /* Assets.xcassets */; };
 		FD4A21AE2847A559000B6A13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4A21AC2847A559000B6A13 /* LaunchScreen.storyboard */; };
@@ -24,12 +33,21 @@
 		FD09089E284B5CBB00CF2746 /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
 		FD0908A0284B5CD400CF2746 /* TextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
 		FD0908A2284B5D2B00CF2746 /* InputRuleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRuleProtocol.swift; sourceTree = "<group>"; };
+		FD0908A4284B5F0200CF2746 /* NoDigits.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NoDigits.storyboard; sourceTree = "<group>"; };
+		FD0908A6284B5FF600CF2746 /* NoDigitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDigitsViewController.swift; sourceTree = "<group>"; };
+		FD0908A8284B6A3F00CF2746 /* InputLimit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InputLimit.storyboard; sourceTree = "<group>"; };
+		FD0908AA284B6A9000CF2746 /* InputLimitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLimitViewController.swift; sourceTree = "<group>"; };
+		FD0908AC284B6B1500CF2746 /* OnlyCharacters.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnlyCharacters.storyboard; sourceTree = "<group>"; };
+		FD0908AE284B6C3000CF2746 /* OnlyCharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyCharactersViewController.swift; sourceTree = "<group>"; };
+		FD0908B0284B733800CF2746 /* Link.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Link.storyboard; sourceTree = "<group>"; };
+		FD0908B3284B738B00CF2746 /* LinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkViewController.swift; sourceTree = "<group>"; };
+		FD0908B5284B73F100CF2746 /* Password.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Password.storyboard; sourceTree = "<group>"; };
+		FD0908B7284B744300CF2746 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		FD1927E7284A1D39001BEF89 /* TextFieldCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldCustomView.xib; sourceTree = "<group>"; };
 		FD1927E9284A1D7A001BEF89 /* TextFieldCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustomView.swift; sourceTree = "<group>"; };
 		FD4A219E2847A557000B6A13 /* TextFields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFields.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4A21A12847A557000B6A13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD4A21A32847A557000B6A13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD4A21A52847A557000B6A13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD4A21A82847A557000B6A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD4A21AA2847A559000B6A13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD4A21AD2847A559000B6A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -108,7 +126,11 @@
 		FD4A21B62847A5A3000B6A13 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FD4A21A52847A557000B6A13 /* ViewController.swift */,
+				FD0908A6284B5FF600CF2746 /* NoDigitsViewController.swift */,
+				FD0908AA284B6A9000CF2746 /* InputLimitViewController.swift */,
+				FD0908AE284B6C3000CF2746 /* OnlyCharactersViewController.swift */,
+				FD0908B3284B738B00CF2746 /* LinkViewController.swift */,
+				FD0908B7284B744300CF2746 /* PasswordViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -117,6 +139,11 @@
 			isa = PBXGroup;
 			children = (
 				FD4A21A72847A557000B6A13 /* Main.storyboard */,
+				FD0908A4284B5F0200CF2746 /* NoDigits.storyboard */,
+				FD0908A8284B6A3F00CF2746 /* InputLimit.storyboard */,
+				FD0908AC284B6B1500CF2746 /* OnlyCharacters.storyboard */,
+				FD0908B0284B733800CF2746 /* Link.storyboard */,
+				FD0908B5284B73F100CF2746 /* Password.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -197,9 +224,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD4A21AE2847A559000B6A13 /* LaunchScreen.storyboard in Resources */,
+				FD0908A9284B6A3F00CF2746 /* InputLimit.storyboard in Resources */,
 				FD4A21AB2847A559000B6A13 /* Assets.xcassets in Resources */,
+				FD0908A5284B5F0200CF2746 /* NoDigits.storyboard in Resources */,
+				FD0908B1284B733800CF2746 /* Link.storyboard in Resources */,
+				FD0908B6284B73F100CF2746 /* Password.storyboard in Resources */,
 				FD4A21A92847A557000B6A13 /* Main.storyboard in Resources */,
 				FD1927E8284A1D39001BEF89 /* TextFieldCustomView.xib in Resources */,
+				FD0908AD284B6B1500CF2746 /* OnlyCharacters.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,13 +242,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD4A21A62847A557000B6A13 /* ViewController.swift in Sources */,
 				FD4A21A22847A557000B6A13 /* AppDelegate.swift in Sources */,
+				FD0908AF284B6C3000CF2746 /* OnlyCharactersViewController.swift in Sources */,
 				FD4A21A42847A557000B6A13 /* SceneDelegate.swift in Sources */,
+				FD0908AB284B6A9000CF2746 /* InputLimitViewController.swift in Sources */,
+				FD0908B8284B744300CF2746 /* PasswordViewController.swift in Sources */,
 				FD0908A1284B5CD400CF2746 /* TextFieldModel.swift in Sources */,
 				FD0908A3284B5D2B00CF2746 /* InputRuleProtocol.swift in Sources */,
 				FD1927EA284A1D7A001BEF89 /* TextFieldCustomView.swift in Sources */,
 				FD09089F284B5CBB00CF2746 /* Rules.swift in Sources */,
+				FD0908A7284B5FF600CF2746 /* NoDigitsViewController.swift in Sources */,
+				FD0908B4284B738B00CF2746 /* LinkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
