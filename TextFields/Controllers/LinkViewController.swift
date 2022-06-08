@@ -14,12 +14,19 @@ class LinkViewController: UIViewController {
     var workItem: DispatchWorkItem?
     let model = TextFieldModel()
     var safariVC: SFSafariViewController?
+    private lazy var linkDelegateObject = LinkRuleDelegate { [weak self] url in
+        self?.followLink(url: url)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         linkView.titleLabel.text = "Link"
         linkView.inputTextField.attributedPlaceholder = NSAttributedString("www.example.com")
+        linkView.inputTextField.addTarget(
+            linkDelegateObject,
+            action: #selector(LinkRuleDelegate.editingChanged(_:)),
+            for: .editingChanged)
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -30,7 +37,7 @@ class LinkViewController: UIViewController {
 
     func followLink(url: URL) {
         safariVC = SFSafariViewController(url: url)
-//        safariVC!.delegate = linkDelegateObject
+        safariVC!.delegate = linkDelegateObject
         self.present(safariVC!, animated: true, completion: nil)
     }
 }

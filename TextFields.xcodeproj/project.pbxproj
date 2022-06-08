@@ -28,6 +28,7 @@
 		FD4A21AB2847A559000B6A13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4A21AA2847A559000B6A13 /* Assets.xcassets */; };
 		FD4A21AE2847A559000B6A13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4A21AC2847A559000B6A13 /* LaunchScreen.storyboard */; };
 		FDAB57E9284E3517007939F5 /* InputRuleTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB57E8284E3517007939F5 /* InputRuleTextFieldDelegate.swift */; };
+		FDBD446D2851366600861F6E /* LinkRuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD446C2851366600861F6E /* LinkRuleDelegate.swift */; };
 		FDCC0B322850F12700C969FB /* InputLimitRuleDelegat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC0B312850F12700C969FB /* InputLimitRuleDelegat.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		FD4A21AD2847A559000B6A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD4A21AF2847A559000B6A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDAB57E8284E3517007939F5 /* InputRuleTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRuleTextFieldDelegate.swift; sourceTree = "<group>"; };
+		FDBD446C2851366600861F6E /* LinkRuleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkRuleDelegate.swift; sourceTree = "<group>"; };
 		FDCC0B312850F12700C969FB /* InputLimitRuleDelegat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLimitRuleDelegat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +84,7 @@
 			children = (
 				FDAB57E8284E3517007939F5 /* InputRuleTextFieldDelegate.swift */,
 				FDCC0B312850F12700C969FB /* InputLimitRuleDelegat.swift */,
+				FDBD446C2851366600861F6E /* LinkRuleDelegate.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDBD446D2851366600861F6E /* LinkRuleDelegate.swift in Sources */,
 				FD4A21A22847A557000B6A13 /* AppDelegate.swift in Sources */,
 				FD0908AF284B6C3000CF2746 /* OnlyCharactersViewController.swift in Sources */,
 				FDAB57E9284E3517007939F5 /* InputRuleTextFieldDelegate.swift in Sources */,
