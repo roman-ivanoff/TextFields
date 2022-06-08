@@ -28,6 +28,7 @@
 		FD4A21AB2847A559000B6A13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4A21AA2847A559000B6A13 /* Assets.xcassets */; };
 		FD4A21AE2847A559000B6A13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4A21AC2847A559000B6A13 /* LaunchScreen.storyboard */; };
 		FDAB57E9284E3517007939F5 /* InputRuleTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB57E8284E3517007939F5 /* InputRuleTextFieldDelegate.swift */; };
+		FDCC0B322850F12700C969FB /* InputLimitRuleDelegat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC0B312850F12700C969FB /* InputLimitRuleDelegat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		FD4A21AD2847A559000B6A13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD4A21AF2847A559000B6A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDAB57E8284E3517007939F5 /* InputRuleTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRuleTextFieldDelegate.swift; sourceTree = "<group>"; };
+		FDCC0B312850F12700C969FB /* InputLimitRuleDelegat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLimitRuleDelegat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				FDAB57E8284E3517007939F5 /* InputRuleTextFieldDelegate.swift */,
+				FDCC0B312850F12700C969FB /* InputLimitRuleDelegat.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				FD0908AB284B6A9000CF2746 /* InputLimitViewController.swift in Sources */,
 				FD0908B8284B744300CF2746 /* PasswordViewController.swift in Sources */,
 				FD0908A1284B5CD400CF2746 /* TextFieldModel.swift in Sources */,
+				FDCC0B322850F12700C969FB /* InputLimitRuleDelegat.swift in Sources */,
 				FD0908A3284B5D2B00CF2746 /* InputRuleProtocol.swift in Sources */,
 				FD1927EA284A1D7A001BEF89 /* TextFieldCustomView.swift in Sources */,
 				FD09089F284B5CBB00CF2746 /* Rules.swift in Sources */,

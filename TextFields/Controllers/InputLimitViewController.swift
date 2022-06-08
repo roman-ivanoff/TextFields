@@ -12,7 +12,11 @@ class InputLimitViewController: UIViewController {
     @IBOutlet weak var inputLimitView: TextFieldCustomView!
     var limit = 10
     var stringCount = 0
-    let model = TextFieldModel()
+    private lazy var inputeLimitDelegateObject = InputLimitRuleDelegat(
+        label: inputLimitView.limitLabel,
+        limit: limit,
+        stringCount: stringCount
+    )
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +24,10 @@ class InputLimitViewController: UIViewController {
         inputLimitView.limitLabel.isHidden = false
         inputLimitView.titleLabel.text = "Input limit"
         inputLimitView.limitLabel.text = getLimitLabelText()
+        inputLimitView.inputTextField.addTarget(
+            inputeLimitDelegateObject,
+            action: #selector(InputLimitRuleDelegat.editingChanged(_:)),
+            for: .editingChanged)
     }
 
     private func getLimitLabelText() -> String {
