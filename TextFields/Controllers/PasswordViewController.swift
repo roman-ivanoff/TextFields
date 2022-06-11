@@ -17,6 +17,20 @@ class PasswordViewController: UIViewController {
     let minOneUppercaseRegex = ".*[A-Z].*"
     let defaultTextColor = #colorLiteral(red: 0.4159630239, green: 0.4159630239, blue: 0.4159630239, alpha: 1)
     let validatedColor = UIColor.green
+    private lazy var passwordDelegateObject = PasswordTextFieldDelegate(rule: PasswordTextFieldRule(
+        model: model,
+        textField: passwordView.inputTextField,
+        minLengthLabel: passwordView.minLengthLabel,
+        minDigitsLabel: passwordView.minDigitsLabel,
+        minLowercaseLabel: passwordView.minLowercaseLabel,
+        minUppercaseLabel: passwordView.minUppercaseLabel,
+        min8CharactersRegex: min8CharactersRegex,
+        minOneDigitRegex: minOneDigitRegex,
+        minOneLowercaseRegex: minOneLowercaseRegex,
+        minOneUppercaseRegex: minOneUppercaseRegex,
+        validatedColor: validatedColor,
+        defaultTextColor: defaultTextColor)
+    )
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +39,7 @@ class PasswordViewController: UIViewController {
         passwordView.titleLabel.text = "Validation rules"
         passwordView.inputTextField.isSecureTextEntry = true
         passwordView.inputTextField.attributedPlaceholder = NSAttributedString("password")
+        passwordView.inputTextField.delegate = passwordDelegateObject
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {

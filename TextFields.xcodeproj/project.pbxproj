@@ -30,6 +30,7 @@
 		FDAB57E9284E3517007939F5 /* InputRuleTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB57E8284E3517007939F5 /* InputRuleTextFieldDelegate.swift */; };
 		FDBD446D2851366600861F6E /* LinkRuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD446C2851366600861F6E /* LinkRuleDelegate.swift */; };
 		FDCC0B322850F12700C969FB /* InputLimitRuleDelegat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCC0B312850F12700C969FB /* InputLimitRuleDelegat.swift */; };
+		FDF8BB862854A0F400782586 /* PasswordTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF8BB852854A0F400782586 /* PasswordTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		FDAB57E8284E3517007939F5 /* InputRuleTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRuleTextFieldDelegate.swift; sourceTree = "<group>"; };
 		FDBD446C2851366600861F6E /* LinkRuleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkRuleDelegate.swift; sourceTree = "<group>"; };
 		FDCC0B312850F12700C969FB /* InputLimitRuleDelegat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLimitRuleDelegat.swift; sourceTree = "<group>"; };
+		FDF8BB852854A0F400782586 /* PasswordTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				FDAB57E8284E3517007939F5 /* InputRuleTextFieldDelegate.swift */,
 				FDCC0B312850F12700C969FB /* InputLimitRuleDelegat.swift */,
 				FDBD446C2851366600861F6E /* LinkRuleDelegate.swift */,
+				FDF8BB852854A0F400782586 /* PasswordTextFieldDelegate.swift */,
 			);
 			path = Delegates;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				FD09089F284B5CBB00CF2746 /* Rules.swift in Sources */,
 				FD0908A7284B5FF600CF2746 /* NoDigitsViewController.swift in Sources */,
 				FD0908B4284B738B00CF2746 /* LinkViewController.swift in Sources */,
+				FDF8BB862854A0F400782586 /* PasswordTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
