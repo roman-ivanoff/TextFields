@@ -33,17 +33,17 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="EL1-Qu-dHR">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="15.5"/>
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="16"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bq3-V9-EVz">
-                            <rect key="frame" x="0.0" y="0.0" width="414" height="15.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="16"/>
                             <accessibility key="accessibilityConfiguration" identifier="titleLabel"/>
                             <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
                             <color key="textColor" red="0.1764705882" green="0.1764705882" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="0/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFa-qr-oak">
-                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="15.5"/>
+                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="16"/>
                             <accessibility key="accessibilityConfiguration" identifier="countLabel"/>
                             <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="13"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -52,37 +52,37 @@
                     </subviews>
                 </stackView>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8MC-MX-lPd">
-                    <rect key="frame" x="0.0" y="21.5" width="414" height="34"/>
+                    <rect key="frame" x="0.0" y="22" width="414" height="34"/>
                     <accessibility key="accessibilityConfiguration" identifier="inputTextField"/>
                     <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="17"/>
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="iPU-lg-KyE">
-                    <rect key="frame" x="8" y="65.5" width="0.0" height="0.0"/>
+                    <rect key="frame" x="8" y="66" width="0.0" height="0.0"/>
                     <subviews>
                         <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min length 8 characters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAJ-hv-Cvm">
-                            <rect key="frame" x="0.0" y="0.0" width="137" height="0.0"/>
+                            <rect key="frame" x="0.0" y="0.0" width="144" height="0.0"/>
                             <accessibility key="accessibilityConfiguration" identifier="minLengthLabell"/>
                             <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
                             <color key="textColor" red="0.3411764706" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min 1 digit," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c06-1p-w0f">
-                            <rect key="frame" x="0.0" y="0.0" width="65" height="0.0"/>
+                            <rect key="frame" x="0.0" y="0.0" width="64" height="0.0"/>
                             <accessibility key="accessibilityConfiguration" identifier="min1DigitLabel"/>
                             <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
                             <color key="textColor" red="0.3411764706" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min 1 lowercase," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcO-BS-IoD">
-                            <rect key="frame" x="0.0" y="0.0" width="98.5" height="0.0"/>
+                            <rect key="frame" x="0.0" y="0.0" width="98" height="0.0"/>
                             <accessibility key="accessibilityConfiguration" identifier="min1LowercaseLabel"/>
                             <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
                             <color key="textColor" red="0.3411764706" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min 1 capital required." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odW-3x-FXr">
-                            <rect key="frame" x="0.0" y="0.0" width="129.5" height="0.0"/>
+                            <rect key="frame" x="0.0" y="0.0" width="131.5" height="0.0"/>
                             <accessibility key="accessibilityConfiguration" identifier="min1UppercaseLabel"/>
                             <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
                             <color key="textColor" red="0.3411764706" green="0.3411764706" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
