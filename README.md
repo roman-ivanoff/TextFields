@@ -1,6 +1,6 @@
 Create an application with text fields for different needs. 
 
-![](https://github.com/roman-ivanoff/Reverse-Words/blob/main/1.gif)
+![](https://github.com/roman-ivanoff/TextFields/blob/main/1.gif)
 
 <b>First text field:</b> exclude number characters on input. 
 
