@@ -1,5 +1,7 @@
 Create an application with text fields for different needs. 
 
+![](https://github.com/roman-ivanoff/Reverse-Words/blob/main/1.gif)
+
 <b>First text field:</b> exclude number characters on input. 
 
 <b>Second:</b> add a character counter that indicates input from 10 to negative value. On a negative value make the counter label and text field border red. The text after the 10th character should be red.
